@@ -10,7 +10,7 @@ ENV DOMAIN wordpress.example.com
 
 # Install
 # Base
-RUN apt-get update && apt-get install -y openssh-server curl lsb_release
+RUN apt-get update && apt-get install -y openssh-server curl lsb-release
 
 # Nginx, PHP7
 RUN apt-get install -y nginx php7.0 php7.0-fpm php7.0-mysql php7.0-gd
